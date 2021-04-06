@@ -1,5 +1,9 @@
+<% if enhanced_cart.size === 0 %> 
+  <h1>
+    Cart is empty!
+  </h1>
+<% else %>
 <section class="cart-show">
-
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
@@ -50,3 +54,5 @@
   </div>
 
 </section>
+<% end %>
+
